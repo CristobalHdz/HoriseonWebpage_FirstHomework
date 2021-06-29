@@ -46,6 +46,10 @@ Change description: It was moved from the image formats. We can add just that on
 <br/>
 Change description: The benefit-lead,brand and card do the same thing. It is easier to merge them into just one class
 
+<b>Line 83:</b> Make the padding larger. It was `padding:20px` changed to `padding: 20px 20px 80px 20px`
+<br/>
+Change description: The benefits collumn was not looking good besides the main cards. This change made it so the bottom page looks better
+
 <b>Line 97-100:</b> Merged all classes into just one called `.benefit-card h3`
 <br/>
 Change description: The benefit-lead,brand and card (h3) do the same thing. It is easier to merge them into just one class
