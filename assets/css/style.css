@@ -60,24 +60,45 @@ p {
     background-position: center;
 }
 
+/* Main body images */
+/* Makes image go to the left of the object */
 .float-left {
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
 
+/* Makes image go to the right of the object */
 .float-right {
     float: right;
     margin-left: 25px;
     max-height: 200px;
 }
 
+/* Main body rows general CSS */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Main body rows. How every horizontal object behaves */
+.main-card-format {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Main body rows Format for the card h2 */
+.main-card-format h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Main body. Column on the right */
 .benefits {
     margin-right: 20px;
     padding: 20px 20px 80px 20px;
@@ -89,34 +110,23 @@ p {
     background-color: #2589bd;
 }
 
+/* Main body column. How every element behaves inside the object */
 .benefit-card {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Main body column. How the h3 titles behave */
 .benefit-card h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Main body column. How the h3 images behave */
 .benefit-card img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.main-card-format {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.main-card-format h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
