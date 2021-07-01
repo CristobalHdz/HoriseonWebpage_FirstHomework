@@ -1,8 +1,17 @@
 # 01 HTML, CSS, and Git: Code Refactor
- 
- First code Boot Camp assignment.
+
+# Section 01: General Information
+
+First code Boot Camp assignment.
  by Cristobal Hernandez
 
+## Description
+The task is cleaning the code for the Horiseon webpage. On the next section the document shows what changes have been made and their description on why they were changed.
+
+## Deployed Application URL
+https://cristobalhdz.github.io/HoriseonWebpage_FirstHomework/
+
+# Section 2: Changes to the code
 ## Changes made to HTML
 
 <b>Line 11 & 26:</b> Changed `<div>` to `<header>`.
